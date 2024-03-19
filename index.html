@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback DApp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feedback DApp</h1>
+      <div id="connect-wallet">
+        <button id="connect-wallet-button" class="button-wallet">
+          Connect Wallet
+        </button>
+      </div>
+      <div class="feedback-section">
+        <h2>Feedback Section</h2>
+        <ul class="feedback-list">
+          <!-- Feedback messages will be dynamically added here -->
+          <li class="feedback-item">
+            <div class="sender">Joshua Nwankwo</div>
+            <div class="message">Feedback message.</div>
+          </li>
+          <li class="feedback-item">
+            <div class="sender">Tappi</div>
+            <div class="message">Feedback would be appreciated.</div>
+          </li>
+        </ul>
+      </div>
+      <div class="send-feedback-section">
+        <h2>Send Feedback</h2>
+        <form class="send-feedback-form">
+          <textarea
+            id="feedback-message"
+            placeholder="Enter your feedback"
+          ></textarea>
+          <button id="send-feedback-button">Send Feedback</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
